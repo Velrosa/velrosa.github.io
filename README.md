@@ -1,2 +1,0 @@
-# velrosa.github.io
-Portfolio

@@ -1,150 +1,157 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Velrosa Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Velrosa<br />
-						Portfolio</h1>
-						<p>Junior Software/Web Developer</p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">my Portfolio</a>
-					</header>
+    <title>JT Portfolio</title>
+  
+  </head>
+  <body>
+    <!-- Navbar bg-dark navbar-dark-->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color:#232F34">
+        <div class="container">
+            <a class="navbar-brand" href="#" id="Brand">JT Portfolio</a>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/Velrosa" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navmenu"
+                    aria-controls="#navmenu"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                <span class="navbar-toggler-icon"></span>
+                
+            </button>
 
-				<!-- Main -->
-					<div id="main">
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#Projects" class="nav-link text-light">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Contact" class="nav-link text-light">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>Water Drinking Logger</h2>
-								</header>
-								<a href="https://github.com/Velrosa/Water-Drinking-Logger" class="image main"><img src="images/web_app_img.png" alt="" /></a>
-								<p>A C# ASP.NET Core Web Application, Allows users to CRUD information, Uses SQLite.</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/Velrosa/Water-Drinking-Logger" class="button large">View Code</a></li>
-								</ul>
-							</article>
+    <section class="text-center p-5" style="background-color:#4A6572" id="Home">
+        <div class="container p-5">
+            <h1 style="color:white; font-size: 6rem;">John Thurston</h1>
+            <h4 style="color:#F9AA33; font-size: 2.8rem; font-weight:200">Junior Developer</h4>
+        </div>  
+    </section>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2>Shift Tracker API</h2>
-									</header>
-									<a href="https://github.com/Velrosa/Shift-Tracker-API" class="image fit"><img src="images/web_api_img.jpg" alt="" /></a>
-									<p>A C# ASP.NET Web API, Uses REST, handles HTTP requests/responses.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Velrosa/Shift-Tracker-API" class="button">View Code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Shift Tracker Console App</h2>
-									</header>
-									<a href="https://github.com/Velrosa/Shift-Tracker-Console-App" class="image fit"><img src="images/console_app_img.jpg" alt="" /></a>
-									<p>A C# .NET Console App, Uses RestSharp to send HTTP requests/responses to an external API.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Velrosa/Shift-Tracker-Console-App" class="button">View Code</a></li>
-									</ul>
-								</article>
-							</section>
-							<section class="posts">
-								<article>
-									<header>
-										<h2>Excel Reader</h2>
-									</header>
-									<a href="https://github.com/Velrosa/Excel-Reader" class="image fit"><img src="images/console_app_img.jpg" alt="" /></a>
-									<p>A C# .NET Console App, Uses SQLite, reads Excel files into SQL databases.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Velrosa/Excel-Reader" class="button">View Code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Web Scraper/Email Sender</h2>
-									</header>
-									<a href="https://github.com/Velrosa/Sports-Results-Logger" class="image fit"><img src="images/console_app_img.jpg" alt="" /></a>
-									<p>A C# .NET Console App, Uses HTTP-Agility-Pack and .NET Mail.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/Velrosa/Sports-Results-Logger" class="button">View Code</a></li>
-									</ul>
-								</article>
-							</section>
-					</div>
+    <div class="row justify-content-center p-5" style="background-color:#344955" id="Projects">
+        <div class="col-md-4 p-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title m-2">Water Drinking Logger</h5>
+                </div>
+                <img src="web_api_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">A C# ASP.NET Core Web Application, Allows users to CRUD records.</p>
+                    <a href="https://github.com/Velrosa/Water-Drinking-Logger" class="btn btn-danger btn-lg">View Code</a>
+                </div>
+                <div class="card-footer">SQL Server</div>
+                <div class="card-footer">MVC</div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title m-2">Shift Tracker API</h5>
+                </div>
+                <img src="web_api_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>England, United Kingdom</p>
-							</section>
-							<section>
-								<h3>GitHub</h3>
-								<p><a href="https://github.com/Velrosa">GitHub.com/Velrosa</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">steezie21@hotmail.co.uk</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/Velrosa" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
+                    <p class="card-text">A C# ASP.NET Web API, handles HTTP requests/responses.</p>
+                    <a href="https://github.com/Velrosa/Shift-Tracker-API" class="btn btn-danger btn-lg">View Code</a>
+                </div>
+                <div class="card-footer">SQL Server</div>
+                <div class="card-footer">Web API</div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title m-2">Shift Tracker App</h5>
+                </div>
+                <img src="console_app_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">A C# .NET Console App, consumes an external API for Shift records.</p>
+                    <a href="https://github.com/Velrosa/Shift-Tracker-Console-App" class="btn btn-danger btn-lg">View Code</a>
+                </div>
+                <div class="card-footer">RestSharp</div>
+                <div class="card-footer">Console UI</div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title m-2">Excel Reader</h5>
+                </div>
+                <img src="console_app_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">A C# .NET Console App, reads Excel files into SQL databases.</p>
+                    <a href="https://github.com/Velrosa/Excel-Reader" class="btn btn-danger btn-lg">View Code</a>
+                </div>
+                <div class="card-footer">SQLite</div>
+                <div class="card-footer">Point 2</div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title m-2">Web Scraper/Email Sender</h5>
+                </div>
+                <img src="console_app_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">A C# .NET Console App, scrapes HTML pages and sends emails.</p>
+                    <a href="https://github.com/Velrosa/Sports-Results-Logger" class="btn btn-danger btn-lg">View Code</a>
+                </div>
+                <div class="card-footer">HTTP-Agility-Pack</div>
+                <div class="card-footer">.NET Mail</div>
+            </div>
+        </div>
+        <div class="col-md-4 p-5">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h5 class="card-title m-2">Flashcards</h5>
+                </div>
+                <img src="console_app_img.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">A C# Console Application, Allows the user to study "Flashcards"</p>
+                    <a href="https://github.com/Velrosa/Flashcards" class="btn btn-danger btn-lg">View Code</a>
+                </div>
+                <div class="card-footer">SQL Server</div>
+                <div class="card-footer">Foreign Keys/SQL PIVOT</div>
+            </div>
+        </div>
+    </div>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Velrosa Coding</li>
-					</div>
+    <section class="text-center p-5" id="Contact" style="background-color:#4A6572; color:white">
+        <div class="container p-5">
+            <h3>Contact Me:</h3>
+            <h3>Email:<h3><a href=""><h4>steezie21@hotmail.co.uk</h4></a>
+            <h3>Github:<h3><a href="https://github.com/Velrosa"><h4>https://github.com/Velrosa</h4></a>
+        </div>
+    </section>
 
-			</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-	</body>
+  </body>
 </html>

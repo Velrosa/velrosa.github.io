@@ -1,0 +1,63 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+    color:#F9AA33; 
+}
+
+.card{
+    background-color:#4A6572;
+    color:white
+}
+
+.card-title{
+    color:#F9AA33;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.card-text{
+    font-size: 1.3rem
+}
+
+.card-footer{
+    font-size: 1.2rem
+}
+
+.card-header{
+    background-color: #232F34;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+#Brand{
+    color:#F9AA33
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler {
+    cursor: pointer;
+}
+.orange-text {
+    color:#F9AA33
+}
+.dark-pink-text {
+    color: #AC003A;
+}
+.dark-amber-text {
+    color: #ff6f00;
+}
+.dark-teal-text {
+    color: #004d40;
+}
